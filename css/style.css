@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #fff;
+  --primary1: #363738;
+  --secondary: #f5f5f5;
+  --secondary1: #fefaf1;
+  --bg: #fff;
+  --text: #fafafa;
+  --text1: #7d8184;
+  --text2: #000;
+  --button: #000;
+  --secondary-2: #db4444;
+  --button1: #0f6;
+  --button2: #db4444;
+  --hover-button: #e07575;
+  --hover-button: #a0bce0;
+  --300-1px: rgba(0, 0, 0, 0.3);
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+.sell-proposition {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text);
+  a {
+    color: var(--text);
+    margin-left: 8px;
+  }
+  details {
+    margin-left: 231px;
+  }
+}
+.sell-proposition-background {
+  width: 100%;
+  background-color: black;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--text1);
+  margin-bottom: 5px;
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000;
+    margin-right: 190px;
+  }
+}
+.nav_bar_links {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+  }
+}
+.nav_bar_links a:hover {
+  border-bottom: 1px solid black;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 7px 12px 7px 20px;
+  background-color: var(--secondary);
+  margin-left: 148px;
+  margin-right: 24px;
+  input {
+    border: none;
+    background-color: var(--secondary);
+  }
+  width: 223px;
+  height: 38px;
+}
+.search img {
+  cursor: pointer;
+}
+.wishlist {
+  margin-right: 22px;
+}
+.categories_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  width: 217px;
+  height: 344px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--text2);
+  border-right: 1px solid var(--text1);
+}
+.categories {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  img {
+    width: 892px;
+    height: 344px;
+  }
+}
+.text_with_red_styka {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.flash_sales {
+  width: 100%;
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--secondary-2);
+  }
+}
+.red_shtyka {
+  border-radius: 4px;
+  width: 20px;
+  height: 40px;
+  background-color: var(--secondary-2);
+}
+.flash-sales-cards {
+  display: flex;
+  flex-direction: row;
+}
+.flash_sales_timer {
+  display: flex;
+  gap: 36px;
+  h2 {
+    margin-right: 51px;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text2);
+  }
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 0.9375;
+    letter-spacing: 0.04em;
+    color: #000;
+  }
+  h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000;
+    margin-bottom: 40px;
+  }
+}
+.flash-sales-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.flash_sales_product {
+  position: relative;
+  width: 250px;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 250px;
+}
+.icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flash-sales-gamepad,
+.flash-sales-keyboard,
+.flash-sales-monitor,
+.flash-sales-chair {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.discount_percent{
+  margin-right: 157px;
+  margin-top: 17px;
+}
+
