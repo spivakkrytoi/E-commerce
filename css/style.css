@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --primary: #fff;
   --primary1: #363738;
@@ -24,6 +25,7 @@
   --font-family: "Poppins", sans-serif;
   --second-family: "Inter", sans-serif;
 }
+
 .sell-proposition {
   width: 100%;
   height: 48px;
@@ -36,27 +38,33 @@
   font-size: 14px;
   line-height: 21px;
   color: var(--text);
+
   a {
     color: var(--text);
     margin-left: 8px;
   }
+
   details {
     margin-left: 231px;
   }
 }
+
 .sell-proposition-background {
   width: 100%;
   background-color: black;
 }
+
 .container {
   width: 1170px;
   margin: 0 auto;
 }
+
 .nav-bar {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--text1);
   margin-bottom: 5px;
+
   h3 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -67,10 +75,12 @@
     margin-right: 190px;
   }
 }
+
 .nav_bar_links {
   display: flex;
   justify-content: space-between;
   gap: 48px;
+
   a {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -81,9 +91,11 @@
     text-decoration: none;
   }
 }
+
 .nav_bar_links a:hover {
   border-bottom: 1px solid black;
 }
+
 .search {
   display: flex;
   align-items: center;
@@ -94,19 +106,24 @@
   background-color: var(--secondary);
   margin-left: 148px;
   margin-right: 24px;
+
   input {
     border: none;
     background-color: var(--secondary);
   }
+
   width: 223px;
   height: 38px;
 }
+
 .search img {
   cursor: pointer;
 }
+
 .wishlist {
   margin-right: 22px;
 }
+
 .categories_text {
   display: flex;
   align-items: flex-start;
@@ -123,22 +140,27 @@
   color: var(--text2);
   border-right: 1px solid var(--text1);
 }
+
 .categories {
   display: flex;
   width: 100%;
   justify-content: space-between;
+
   img {
     width: 892px;
     height: 344px;
   }
 }
+
 .text_with_red_styka {
   gap: 16px;
   display: flex;
   align-items: center;
 }
+
 .flash_sales {
   width: 100%;
+
   p {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -147,22 +169,27 @@
     color: var(--secondary-2);
   }
 }
+
 .red_shtyka {
   border-radius: 4px;
   width: 20px;
   height: 40px;
   background-color: var(--secondary-2);
 }
+
 .flash-sales-cards {
   display: flex;
   flex-direction: row;
 }
+
 .flash_sales_timer {
   display: flex;
   gap: 36px;
+
   h2 {
     margin-right: 51px;
   }
+
   p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -170,6 +197,7 @@
     line-height: 1.5;
     color: var(--text2);
   }
+
   h3 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -178,6 +206,7 @@
     letter-spacing: 0.04em;
     color: #000;
   }
+
   h2 {
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -188,6 +217,7 @@
     margin-bottom: 40px;
   }
 }
+
 .flash-sales-cards {
   display: flex;
   justify-content: center;
@@ -204,6 +234,15 @@
   padding: 20px;
   height: 250px;
 }
+
+.flash-sales-cards h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
 .icons {
   position: absolute;
   top: 10px;
@@ -220,8 +259,30 @@
   max-width: 100%;
   margin: 0 auto;
 }
-.discount_percent{
+
+.discount_percent {
   margin-right: 157px;
   margin-top: 17px;
 }
 
+.price-without-discount {
+  color: var(--text1);
+  text-decoration: line-through;
+}
+
+.flash_sales button {
+  border-radius: 4px;
+  padding: 16px 48px;
+  width: 234px;
+  height: 56px;
+  background-color: var(--secondary-2);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  margin-top: 60px;
+  margin-left: 468px;
+  cursor: pointer;
+}
