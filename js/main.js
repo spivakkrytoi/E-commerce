@@ -33,6 +33,5 @@ function startTimer() {
   // Ініціалізуємо таймер відразу
   updateTimer();
 }
-
 // Запускаємо таймер
 startTimer();
